@@ -61,6 +61,13 @@ export const moduleConfigSchema = z.strictObject({
       questions: z.number().int().min(1).max(500),
       minutes: z.number().int().min(1).max(1440),
       sections: z.number().int().min(1).max(10).optional(),
+      /**
+       * One or two sentences on the real exam's format, shown next to the exam-mode timing
+       * when `questions` in `minutes` is a pace the module derives rather than a length the
+       * exam body prints: "The real NCLEX-RN is adaptive: 85 to 150 items in up to 5 hours."
+       * Absent when the timing is the exam's own.
+       */
+      note: z.string().min(1).max(200).optional(),
     })
     .optional(),
   /** Name and version of the official outline this module was checked against. */

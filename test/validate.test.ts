@@ -300,3 +300,25 @@ describe("module weights", () => {
     expect(() => parseModuleConfig({ ...base, weights: { C: 10 } })).toThrow(/no matching taxonomy topic/);
   });
 });
+
+describe("module exam_mode.note", () => {
+  const base = { id: "n", display_name: "Note", options: { min: 4, max: 4 }, multi_select: false };
+  const timing = { questions: 85, minutes: 170 };
+
+  it("is optional, and carried exactly as written when present", () => {
+    expect(parseModuleConfig({ ...base, exam_mode: timing }).exam_mode).toEqual(timing);
+    const note = "The real exam is adaptive: 85 to 150 items in up to 5 hours.";
+    expect(parseModuleConfig({ ...base, exam_mode: { ...timing, sections: 2, note } }).exam_mode).toEqual({ ...timing, sections: 2, note });
+    expect(parseModuleConfig({ ...base, exam_mode: { ...timing, note: "x".repeat(200) } }).exam_mode?.note).toHaveLength(200);
+  });
+
+  it("rejects an empty note, one over 200 characters, a non-string, and a note without exam-mode timing", () => {
+    expect(() => parseModuleConfig({ ...base, exam_mode: { ...timing, note: "" } })).toThrow();
+    expect(() => parseModuleConfig({ ...base, exam_mode: { ...timing, note: "x".repeat(201) } })).toThrow();
+    expect(() => parseModuleConfig({ ...base, exam_mode: { ...timing, note: 5 } })).toThrow();
+    expect(() => parseModuleConfig({ ...base, exam_mode: { ...timing, note: null } })).toThrow();
+    expect(() => parseModuleConfig({ ...base, exam_mode: { note: "Timing is required with a note." } })).toThrow();
+    // A note sits inside exam_mode; at the top level it is an unknown field.
+    expect(() => parseModuleConfig({ ...base, exam_mode: timing, note: "Not here." })).toThrow();
+  });
+});

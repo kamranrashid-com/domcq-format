@@ -74,7 +74,8 @@
   ],
   "exam_mode": {
     "questions": 85,
-    "minutes": 170
+    "minutes": 170,
+    "note": "The real NCLEX-RN is adaptive: 85 to 150 items in up to 5 hours."
   },
   "verified_outline": "2026 NCLEX-RN Test Plan (effective April 2026)",
   "verified_on": "2026-10-16",

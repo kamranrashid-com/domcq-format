@@ -57,4 +57,13 @@ describe("fixture modules", () => {
       expect(module.id).toBe(file.replace(/^modules\//, "").replace(/\.json$/, ""));
     }
   });
+
+  it("the NCLEX-RN module carries its exam-mode note: 85 in 170 minutes is a pace, not the exam's length", () => {
+    const nclex = parseModuleConfig(JSON.parse(read("modules/nclex-rn.json")));
+    expect(nclex.exam_mode).toEqual({
+      questions: 85,
+      minutes: 170,
+      note: "The real NCLEX-RN is adaptive: 85 to 150 items in up to 5 hours.",
+    });
+  });
 });

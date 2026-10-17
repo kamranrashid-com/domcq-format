@@ -63,7 +63,8 @@
   "exam_mode": {
     "questions": 50,
     "minutes": 120,
-    "sections": 2
+    "sections": 2,
+    "note": "The real FAR exam is 4 hours: 50 multiple-choice questions in two testlets, then 7 task-based simulations; each part is half the score. Exam mode gives the multiple-choice part half the time."
   },
   "verified_outline": "Uniform CPA Examination Blueprints, effective January 2026 (FAR section)",
   "verified_on": "2026-10-16",
