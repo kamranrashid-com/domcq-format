@@ -139,6 +139,7 @@
     { "file": "valid/cism-claude-6.md", "errors": [], "fenced": true },
     { "file": "valid/cism-claude-7.md", "errors": [], "fenced": true },
     { "file": "valid/cism-claude-8.md", "errors": [], "fenced": true },
+    { "file": "valid/cism-chatgpt-2.json", "errors": [] },
     { "file": "valid/crisc-claude-1.md", "errors": [], "fenced": true },
     { "file": "valid/crisc-claude-2.md", "errors": [], "fenced": true },
     { "file": "valid/crisc-claude-3.md", "errors": [], "fenced": true },
