@@ -4,55 +4,16 @@
   "body": "ISACA",
   "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by ISACA; the names are used only to identify the exam. ISACA® and the names of ISACA certifications, including Certified Information Systems Auditor® (CISA®) and Certified Information Security Manager® (CISM®), are trademarks of ISACA.",
   "taxonomy": {
-    "Information Security Governance": [
-      "Organizational Culture",
-      "Legal, Regulatory, and Contractual Requirements",
-      "Organizational Structures, Roles, and Responsibilities",
-      "Information Security Strategy Development",
-      "Information Governance Frameworks and Standards",
-      "Strategic Planning (e.g., budgets, resources, business case)"
-    ],
-    "Information Security Risk Management": [
-      "Emerging Risk and Threat Landscape",
-      "Vulnerability and Control Deficiency Analysis",
-      "Risk Assessment and Analysis",
-      "Risk Treatment / Risk Response Options",
-      "Risk and Control Ownership",
-      "Risk Monitoring and Reporting"
-    ],
-    "Information Security Program": [
-      "Information Security Program Resources (e.g., people, tools, technologies)",
-      "Information Asset Identification and Classification",
-      "Industry Standards and Frameworks for Information Security",
-      "Information Security Policies, Procedures, and Guidelines",
-      "Information Security Program Metrics",
-      "Information Security Control Design and Selection",
-      "Information Security Control Implementation and Integrations",
-      "Information Security Control Testing and Evaluation",
-      "Information Security Awareness and Training",
-      "Management of External Services (e.g., providers, suppliers, third parties, fourth parties)",
-      "Information Security Program Communications and Reporting"
-    ],
-    "Incident Management": [
-      "Incident Response Plan",
-      "Business Impact Analysis (BIA)",
-      "Business Continuity Plan (BCP)",
-      "Disaster Recovery Plan (DRP)",
-      "Incident Classification/Categorization",
-      "Incident Management Training, Testing, and Evaluation",
-      "Incident Management Tools and Techniques",
-      "Incident Investigation and Evaluation",
-      "Incident Containment Methods",
-      "Incident Response Communications (e.g., reporting, notification, escalation)",
-      "Incident Eradication and Recovery",
-      "Post-incident Review Practices"
-    ]
+    "Information Security Governance": [],
+    "Information Security Risk Management": [],
+    "Information Security Program": [],
+    "Incident Management": []
   },
   "weights": {
-    "Information Security Governance": 17,
+    "Information Security Governance": 18,
     "Information Security Risk Management": 20,
     "Information Security Program": 33,
-    "Incident Management": 30
+    "Incident Management": 29
   },
   "options": {
     "min": 4,
@@ -72,7 +33,7 @@
     "questions": 150,
     "minutes": 240
   },
-  "verified_outline": "CISM Examination Content Outline (Effective 2022), ISACA Certification Exam Candidate Guide Version 1.26",
-  "verified_on": "2026-10-19",
-  "next_review": "2026-11-03"
+  "verified_outline": "CISM Exam Content Outline, effective 3 November 2026 (ISACA's CISM Job Practice Update 2026)",
+  "verified_on": "2026-10-28",
+  "next_review": "2027-11-03"
 }
