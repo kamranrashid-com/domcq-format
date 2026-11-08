@@ -5,10 +5,11 @@
   "disclaimer": "DoMcq is an independent practice tool and is not affiliated with, sponsored by or endorsed by ISACA; the names are used only to identify the exam. ISACA® and the names of ISACA certifications, including Certified Information Systems Auditor® (CISA®) and Certified Information Security Manager® (CISM®), are trademarks of ISACA.",
   "taxonomy": {
     "Information Security Governance": [
-      "Organizational Culture",
+      "Organizational Purpose and Culture",
       "Legal, Regulatory, and Contractual Requirements",
       "Organizational Structures, Roles, and Responsibilities",
       "Information Security Strategy Development",
+      "Enterprise Architecture",
       "Information Governance Frameworks and Standards",
       "Strategic Planning (e.g., budgets, resources, business case)"
     ],
@@ -16,22 +17,23 @@
       "Emerging Risk and Threat Landscape",
       "Vulnerability and Control Deficiency Analysis",
       "Risk Assessment and Analysis",
-      "Risk Treatment / Risk Response Options",
+      "Risk Treatment/Risk Response Options",
       "Risk and Control Ownership",
       "Risk Monitoring and Reporting"
     ],
     "Information Security Program": [
-      "Information Security Program Resources (e.g., people, tools, technologies)",
+      "Information Security Architecture",
+      "Information Security Program Resources (e.g., people, process, technologies)",
+      "Information Security Industry Standards and Frameworks",
+      "Information Security Policies, Standards, Procedures, and Guidelines",
       "Information Asset Identification and Classification",
-      "Industry Standards and Frameworks for Information Security",
-      "Information Security Policies, Procedures, and Guidelines",
-      "Information Security Program Metrics",
       "Information Security Control Design and Selection",
+      "Information Security Program Metrics Development",
       "Information Security Control Implementation and Integrations",
       "Information Security Control Testing and Evaluation",
       "Information Security Awareness and Training",
-      "Management of External Services (e.g., providers, suppliers, third parties, fourth parties)",
-      "Information Security Program Communications and Reporting"
+      "Management of External Services (e.g., suppliers, third parties, nth parties)",
+      "Information Security Program Metrics, Communications, and Reporting"
     ],
     "Incident Management": [
       "Incident Response Plan",
@@ -49,10 +51,10 @@
     ]
   },
   "weights": {
-    "Information Security Governance": 17,
+    "Information Security Governance": 18,
     "Information Security Risk Management": 20,
     "Information Security Program": 33,
-    "Incident Management": 30
+    "Incident Management": 29
   },
   "options": {
     "min": 4,
@@ -72,7 +74,7 @@
     "questions": 150,
     "minutes": 240
   },
-  "verified_outline": "CISM Examination Content Outline (Effective 2022), ISACA Certification Exam Candidate Guide Version 1.26",
-  "verified_on": "2026-10-19",
-  "next_review": "2026-11-03"
+  "verified_outline": "CISM Exam Content Outline, effective 3 November 2026",
+  "verified_on": "2026-11-08",
+  "next_review": "2027-11-08"
 }
