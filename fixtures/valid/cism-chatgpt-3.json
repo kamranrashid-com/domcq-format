@@ -1,0 +1,307 @@
+{
+  "format": "domcq/1",
+  "exam": "cism",
+  "set": "Certified Information Security Manager (CISM) practice – Management Decisions 01",
+  "questions": [
+    {
+      "stem": "An information security manager discovers that senior executives routinely bypass security approval procedures, while employees are disciplined for similar violations. Which of the following would BEST improve the organization's security culture?",
+      "options": [
+        "Implement additional monitoring of employees who violate security procedures",
+        "Obtain executive commitment to consistently demonstrate and enforce security expectations",
+        "Require all employees to complete additional information security awareness training",
+        "Introduce stronger disciplinary measures for repeated security policy violations"
+      ],
+      "answer": "B",
+      "explanation": "An effective security culture depends on visible leadership commitment and consistent organizational behavior. When executives disregard security requirements, employees receive conflicting signals about acceptable practices. Leadership accountability establishes credibility and encourages security-conscious behavior throughout the organization.",
+      "topic": "Information Security Governance",
+      "subtopic": "Organizational Purpose and Culture",
+      "difficulty": "easy",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 1: Organizational Purpose and Culture"
+    },
+    {
+      "stem": "A multinational organization plans to consolidate customer information from several countries into a centralized repository. The countries have different privacy and data retention requirements. What should the information security manager do FIRST?",
+      "options": [
+        "Apply the most restrictive retention period identified across the countries",
+        "Implement encryption and centralized access controls for all customer records",
+        "Develop a uniform retention policy based on the organization's existing practices",
+        "Work with legal and privacy specialists to identify applicable requirements in each jurisdiction"
+      ],
+      "answer": "D",
+      "explanation": "Applicable legal and regulatory obligations must be identified before establishing security and retention requirements. Different jurisdictions may impose conflicting retention, deletion, localization, and access obligations, so adopting a single restrictive rule is not necessarily compliant. Legal and privacy specialists help establish the requirements that the security program must support.",
+      "topic": "Information Security Governance",
+      "subtopic": "Legal, Regulatory, and Contractual Requirements",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 1: Legal, Regulatory, and Contractual Requirements"
+    },
+    {
+      "stem": "An organization is replacing several legacy applications with a microservices-based enterprise architecture. The information security manager discovers that project teams are making architectural decisions before security requirements have been evaluated. Which of the following is the BEST governance-level response?",
+      "options": [
+        "Integrate security requirements and architecture reviews into enterprise architecture decision processes",
+        "Require independent penetration testing before each new application is deployed into production",
+        "Establish a centralized security operations function to monitor all new application components",
+        "Mandate a common set of technical security products across all application development teams"
+      ],
+      "answer": "A",
+      "explanation": "Security should be embedded in enterprise architecture governance so that architectural decisions consistently reflect business objectives, security requirements, and risk appetite. Reviewing security during design is more effective than relying primarily on controls introduced after architectural decisions have been made. Penetration testing and monitoring remain important but do not replace architecture-level governance.",
+      "topic": "Information Security Governance",
+      "subtopic": "Enterprise Architecture",
+      "difficulty": "hard",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 1: Enterprise Architecture"
+    },
+    {
+      "stem": "An information security manager has been asked to reduce the proposed security program budget by 25%. Several planned initiatives address different business risks. Which of the following would be the BEST approach to revising the budget?",
+      "options": [
+        "Defer initiatives requiring the largest initial capital expenditures",
+        "Maintain the existing allocations while extending all implementation schedules",
+        "Prioritize initiatives according to business risk reduction and strategic objectives",
+        "Allocate equal budget reductions across all security projects and departments"
+      ],
+      "answer": "C",
+      "explanation": "Security investments should be prioritized according to the risks they address and their contribution to organizational objectives. A risk-based business case helps management understand which investments provide the greatest value within available resources. Uniform reductions or prioritization based solely on cost may leave significant business exposures untreated.",
+      "topic": "Information Security Governance",
+      "subtopic": "Strategic Planning (e.g., budgets, resources, business case)",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 1: Strategic Planning"
+    },
+    {
+      "stem": "An information security risk assessment identifies a low-impact risk for which the cost of additional controls would substantially exceed the expected benefit. The estimated residual exposure is within the organization's approved risk appetite. Which of the following is the MOST appropriate response?",
+      "options": [
+        "Eliminate the affected business process to remove the identified exposure",
+        "Obtain documented risk acceptance from the accountable business risk owner",
+        "Transfer responsibility for the identified exposure to the security department",
+        "Implement additional preventive controls regardless of their expected cost"
+      ],
+      "answer": "B",
+      "explanation": "Risk acceptance is appropriate when an authorized business risk owner determines that the exposure is tolerable within the organization's risk appetite and approval framework. Acceptance should be documented and the risk should remain subject to monitoring. The information security manager facilitates the assessment but does not independently accept business risk.",
+      "topic": "Information Security Risk Management",
+      "subtopic": "Risk Treatment/Risk Response Options",
+      "difficulty": "easy",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 2: Risk Treatment/Risk Response Options"
+    },
+    {
+      "stem": "A vulnerability assessment identifies numerous weaknesses across an organization's information systems. The remediation team proposes addressing vulnerabilities strictly in descending order of their technical severity scores. Which of the following would BEST improve the prioritization process?",
+      "options": [
+        "Evaluate exploitation likelihood and business impact using asset criticality and existing controls",
+        "Prioritize vulnerabilities affecting the greatest number of individual system components",
+        "Remediate vulnerabilities according to the age of their published security advisories",
+        "Schedule remediation according to the technical effort required for each vulnerability"
+      ],
+      "answer": "A",
+      "explanation": "Technical vulnerability severity is only one component of information security risk. Effective prioritization considers threat likelihood, exploitability, asset importance, existing controls, and potential business consequences. This ensures that limited remediation resources address the exposures that pose the greatest risk to the organization.",
+      "topic": "Information Security Risk Management",
+      "subtopic": "Risk Assessment and Analysis",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 2: Risk Assessment and Analysis"
+    },
+    {
+      "stem": "A business unit operates a revenue-critical application with a significant residual security risk. The information security manager has documented the exposure and recommended treatment options, but the business unit wants the security manager to formally accept the risk because the security department designed the existing controls. Which of the following is the BEST response?",
+      "options": [
+        "Accept the residual risk because control design responsibility establishes risk ownership",
+        "Transfer the residual risk to the application support team responsible for maintaining the system",
+        "Record the residual risk as accepted because the business unit has continued operating the application",
+        "Require the accountable business risk owner to make the acceptance decision through the established risk governance process"
+      ],
+      "answer": "D",
+      "explanation": "Responsibility for designing or operating controls is different from accountability for business risk. The business risk owner has the authority and responsibility to decide whether the residual exposure is acceptable, subject to organizational approval requirements and risk appetite. The information security manager provides analysis and recommendations but cannot assume risk acceptance authority merely by managing the controls.",
+      "topic": "Information Security Risk Management",
+      "subtopic": "Risk and Control Ownership",
+      "difficulty": "hard",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 2: Risk and Control Ownership"
+    },
+    {
+      "stem": "An organization's risk monitoring dashboard shows that a key risk indicator for unauthorized access attempts has exceeded its approved escalation threshold for three consecutive reporting periods. The underlying business service has experienced no confirmed compromise. What should the information security manager do NEXT?",
+      "options": [
+        "Reduce the indicator's sensitivity to prevent repeated reporting of unconfirmed events",
+        "Suspend the affected business service until the indicator returns to its normal range",
+        "Validate the increased exposure and engage the risk owner using established escalation procedures",
+        "Maintain the existing treatment plan until a confirmed security incident demonstrates actual loss"
+      ],
+      "answer": "C",
+      "explanation": "A key risk indicator is intended to provide early warning of changing risk exposure, not merely to report realized losses. Exceeding an approved threshold requires validation, assessment, and communication to the appropriate risk owner according to established procedures. Waiting for an actual compromise would undermine the purpose of proactive risk monitoring.",
+      "topic": "Information Security Risk Management",
+      "subtopic": "Risk Monitoring and Reporting",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 2: Risk Monitoring and Reporting"
+    },
+    {
+      "stem": "An organization is implementing an enterprise-wide information classification scheme. Which of the following parties should be PRIMARILY responsible for assigning classification levels to business information assets?",
+      "options": [
+        "Business information owners who understand the information's value and sensitivity",
+        "Information technology administrators who maintain the information repositories",
+        "Information security analysts who monitor access to the information assets",
+        "Internal auditors who periodically evaluate information handling controls"
+      ],
+      "answer": "A",
+      "explanation": "Business information owners are accountable for determining the classification of information based on its sensitivity, value, and business or regulatory requirements. Security and IT teams support the process by establishing criteria and implementing controls. Classification decisions require business knowledge that technical custodians may not possess.",
+      "topic": "Information Security Program",
+      "subtopic": "Information Asset Identification and Classification",
+      "difficulty": "easy",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 3: Information Asset Identification and Classification"
+    },
+    {
+      "stem": "An organization is migrating applications to a hybrid environment consisting of on-premises systems and multiple cloud platforms. Different teams are independently selecting authentication and data protection mechanisms. Which of the following would BEST support a consistent information security architecture?",
+      "options": [
+        "Allow each platform administrator to select controls based on available native services",
+        "Standardize all application hosting on the platform with the strongest security features",
+        "Deploy a common security monitoring product without changing existing application designs",
+        "Establish architecture principles and reusable security patterns aligned with enterprise risk requirements"
+      ],
+      "answer": "D",
+      "explanation": "Information security architecture provides a coherent approach to protecting information across systems, platforms, and trust boundaries. Architecture principles and reusable patterns promote consistent identity management, data protection, and integration while accommodating different technologies. Selecting products independently does not necessarily produce consistent security outcomes.",
+      "topic": "Information Security Program",
+      "subtopic": "Information Security Architecture",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 3: Information Security Architecture"
+    },
+    {
+      "stem": "A business-critical manufacturing system contains a known vulnerability, but the vendor does not provide a patch and replacing the system is not currently feasible. Which of the following would be the BEST recommendation from the information security manager?",
+      "options": [
+        "Continue operating the system without changes because the vulnerability cannot be patched",
+        "Evaluate compensating controls that reduce exposure and assess the remaining business risk",
+        "Disable vulnerability reporting for the system until the manufacturer releases a supported patch",
+        "Transfer accountability for the vulnerability to the vendor through an updated support agreement"
+      ],
+      "answer": "B",
+      "explanation": "When a preferred control such as patching is unavailable, compensating controls can reduce risk through measures such as segmentation, restricted access, or additional monitoring. Their effectiveness and the resulting residual risk must be assessed against organizational risk appetite. An unpatched vulnerability does not automatically justify either unrestricted continued operation or system replacement.",
+      "topic": "Information Security Program",
+      "subtopic": "Information Security Control Design and Selection",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 3: Information Security Control Design and Selection"
+    },
+    {
+      "stem": "A contracted cloud service provider has begun using a subcontractor to process an organization's confidential customer information. The organization's agreement with the primary provider contains security obligations, but does not explicitly address subcontractors. Which of the following should the information security manager recommend?",
+      "options": [
+        "Rely on the primary provider's existing security certification as evidence of subcontractor compliance",
+        "Require the primary provider to assume financial liability for every subcontractor security incident",
+        "Extend appropriate security requirements through the contractual chain and establish assurance over subcontractor controls",
+        "Require the subcontractor to use the same security technologies deployed by the organization's internal teams"
+      ],
+      "answer": "C",
+      "explanation": "Outsourcing activities through additional service providers does not eliminate the organization's responsibility to manage information security risk. Appropriate security obligations should extend to relevant subcontractors, with mechanisms for obtaining assurance that those obligations are met. Security certifications and financial liability arrangements alone do not establish adequate oversight.",
+      "topic": "Information Security Program",
+      "subtopic": "Management of External Services (e.g., suppliers, third parties, nth parties)",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 3: Management of External Services"
+    },
+    {
+      "stem": "An organization has approved an information security policy requiring secure configuration of its servers. The security manager now needs to establish specific mandatory configuration requirements that administrators must follow. Which of the following should be developed?",
+      "options": [
+        "A security configuration standard specifying required settings and baseline controls",
+        "A security awareness guideline describing recommended configuration practices",
+        "A security strategy explaining the organization's long-term protection objectives",
+        "A security risk report summarizing weaknesses in current server configurations"
+      ],
+      "answer": "A",
+      "explanation": "Standards translate high-level security policy into specific mandatory requirements that can be consistently implemented and assessed. Procedures then describe how personnel carry out the required activities, while guidelines generally provide recommendations. A configuration standard is therefore the appropriate instrument for establishing enforceable server baselines.",
+      "topic": "Information Security Program",
+      "subtopic": "Information Security Policies, Standards, Procedures, and Guidelines",
+      "difficulty": "easy",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 3: Information Security Policies, Standards, Procedures, and Guidelines"
+    },
+    {
+      "stem": "An information security program reports that 95% of identified vulnerabilities are remediated within the required time frame. However, several business-critical, internet-facing applications continue to have exploitable vulnerabilities open for extended periods. Which of the following metrics would provide the MOST useful additional information to executive management?",
+      "options": [
+        "The total number of vulnerability scans completed during each reporting period",
+        "The percentage of discovered vulnerabilities assigned to individual remediation teams",
+        "The average number of vulnerability remediation tickets closed by each technical team",
+        "The risk-weighted duration of exploitable vulnerabilities affecting critical business assets"
+      ],
+      "answer": "D",
+      "explanation": "A high overall remediation percentage can conceal prolonged exposure in the systems most important to the business. A risk-weighted exposure metric combines vulnerability significance, asset criticality, and time at risk, making it more useful for management decisions. Effective program metrics should demonstrate whether security activities are reducing material business risk rather than merely increasing operational throughput.",
+      "topic": "Information Security Program",
+      "subtopic": "Information Security Program Metrics, Communications, and Reporting",
+      "difficulty": "hard",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 3: Information Security Program Metrics, Communications, and Reporting"
+    },
+    {
+      "stem": "An organization is developing business continuity and disaster recovery arrangements for the first time. Which of the following activities should be performed to establish business-driven recovery priorities?",
+      "options": [
+        "Select backup technologies based on the capacity of the organization's production systems",
+        "Determine which technical support teams are available to assist during a major disruption",
+        "Conduct a business impact analysis to identify critical processes and tolerable disruption periods",
+        "Establish recovery contracts based on the disaster recovery capabilities offered by suppliers"
+      ],
+      "answer": "C",
+      "explanation": "A business impact analysis identifies critical business activities, dependencies, and the consequences of interruptions over time. Its findings inform recovery priorities and objectives, including acceptable downtime and data loss. Recovery technologies and arrangements should be selected to support these business requirements.",
+      "topic": "Incident Management",
+      "subtopic": "Business Impact Analysis (BIA)",
+      "difficulty": "easy",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 4: Business Impact Analysis (BIA)"
+    },
+    {
+      "stem": "An organization's monitoring system detects malicious activity on several servers supporting a critical payment processing service. The security operations team has identified the activity but has not assigned an incident severity level. Which of the following should be the PRIMARY basis for determining the incident's priority?",
+      "options": [
+        "The potential business impact, scope, and established incident classification criteria",
+        "The number of security alerts produced by the monitoring system during the incident",
+        "The technical complexity of the malicious activity identified on the affected servers",
+        "The estimated number of security analysts required to investigate the incident"
+      ],
+      "answer": "A",
+      "explanation": "Incident classification should reflect the actual or potential impact on business operations, information assets, and organizational obligations. Established criteria help response teams apply consistent escalation and prioritization decisions. Alert volume, technical complexity, and staffing requirements may influence response planning but do not independently determine business severity.",
+      "topic": "Incident Management",
+      "subtopic": "Incident Classification/Categorization",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 4: Incident Classification/Categorization"
+    },
+    {
+      "stem": "An organization has confirmed unauthorized access to a database containing personal information. Investigation is continuing, and the full extent of the exposure is not yet known. Several jurisdictions impose time-sensitive breach notification obligations. Which of the following should the information security manager do FIRST?",
+      "options": [
+        "Delay all external communication until the investigation identifies every affected individual",
+        "Coordinate promptly with legal and privacy personnel to determine notification obligations and deadlines",
+        "Publish a complete incident summary to affected customers using the available preliminary evidence",
+        "Delegate notification decisions entirely to the technical team investigating the database compromise"
+      ],
+      "answer": "B",
+      "explanation": "Potential notification obligations must be evaluated promptly because statutory and contractual deadlines may apply before an investigation is complete. Legal and privacy specialists help determine applicable triggers, recipients, timing, and required content. Communications should use approved processes and verified information while acknowledging material uncertainties where necessary.",
+      "topic": "Incident Management",
+      "subtopic": "Incident Response Communications (e.g., reporting, notification, escalation)",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 4: Incident Response Communications"
+    },
+    {
+      "stem": "During an active intrusion, attackers are exfiltrating sensitive information through a network segment shared by compromised business servers and a critical safety-monitoring system. Completely disconnecting the segment would interrupt essential safety functions, but continued unrestricted connectivity would permit further data loss. Which of the following is the BEST containment approach?",
+      "options": [
+        "Disconnect the entire network segment immediately without evaluating the safety implications",
+        "Continue monitoring the exfiltration until forensic investigators have collected all available evidence",
+        "Shut down the compromised business servers and the safety-monitoring system until recovery is completed",
+        "Implement targeted network restrictions to stop malicious traffic while preserving essential safety functions and evidence"
+      ],
+      "answer": "D",
+      "explanation": "Containment decisions must consider the urgency of stopping an attack alongside operational, safety, and evidentiary requirements. Targeted isolation and traffic restrictions can interrupt malicious activity without unnecessarily disabling critical services. The incident team should coordinate the response with responsible operational personnel and preserve evidence where practicable without delaying essential containment.",
+      "topic": "Incident Management",
+      "subtopic": "Incident Containment Methods",
+      "difficulty": "hard",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 4: Incident Containment Methods"
+    },
+    {
+      "stem": "A major infrastructure failure requires an organization to activate its disaster recovery plan. Several applications must be restored, but available recovery resources are limited. Which of the following should PRIMARILY determine the restoration sequence?",
+      "options": [
+        "The original implementation dates and technical complexity of the affected applications",
+        "The number of employees who normally use each of the affected applications",
+        "The business-defined recovery objectives and dependencies identified through impact analysis",
+        "The order in which system administrators report that their applications are ready for recovery"
+      ],
+      "answer": "C",
+      "explanation": "Disaster recovery priorities should be driven by business impact, recovery time objectives, recovery point objectives, and dependencies among services. Restoring a supporting system may be necessary before recovering a higher-priority business application. A business-driven sequence ensures that limited recovery resources support the organization's most important operational needs.",
+      "topic": "Incident Management",
+      "subtopic": "Disaster Recovery Plan (DRP)",
+      "difficulty": "easy",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 4: Disaster Recovery Plan (DRP)"
+    },
+    {
+      "stem": "Following a significant cybersecurity incident, an organization's review determines that responders followed the approved incident response plan, but attackers moved laterally for several days without detection. Which of the following would BEST improve future incident management effectiveness?",
+      "options": [
+        "Increase the frequency of incident response status reports submitted to senior management",
+        "Conduct a root cause review of detection gaps, implement corrective measures, and validate their effectiveness",
+        "Require incident responders to repeat existing training before returning to operational duties",
+        "Revise incident severity thresholds so that similar future events are automatically classified at the highest level"
+      ],
+      "answer": "B",
+      "explanation": "A post-incident review should identify underlying failures in detection, response capabilities, procedures, and controls rather than merely assess whether personnel followed the plan. Corrective actions should address the identified causes and be tested to confirm that they work. This creates a measurable improvement cycle and reduces the likelihood or impact of similar incidents.",
+      "topic": "Incident Management",
+      "subtopic": "Post-incident Review Practices",
+      "difficulty": "medium",
+      "source": "ISACA CISM Exam Content Outline (2026), Domain 4: Post-incident Review Practices"
+    }
+  ]
+}
